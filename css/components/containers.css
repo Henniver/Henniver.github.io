@@ -1,0 +1,33 @@
+.container-banner {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 50px;
+}
+
+/*add a media query so that banner elements are centered on smaller screens*/
+
+.container {
+  width: 1000px;
+  background-color:white;
+  margin: 0 auto;
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  padding: 16px 0;
+}
+
+.container h2{
+  margin-top: 0;
+}
+
+.container-cards-how {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
